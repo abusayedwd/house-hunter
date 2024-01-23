@@ -9,12 +9,15 @@ const Alhome = () => {
 
    return (
       <div>
-             <h1>ALL Home: </h1>
+             <h1 className='text-center text-2xl py-4'>ALL House: </h1>
+             <div  className='grid grid-cols-1 gap-2 md:grid-cols-3'>
+
              {
                homes?.map(home => 
                   <Showhome key={home.id} home={home}></Showhome>
                   )
              }
+             </div>
       </div>
    );
 };
