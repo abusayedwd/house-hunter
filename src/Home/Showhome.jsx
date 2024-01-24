@@ -1,7 +1,9 @@
 import React from 'react';
 
+// eslint-disable-next-line react/prop-types
 const Showhome = ({home}) => {
 
+   // eslint-disable-next-line react/prop-types
    const {address, availabilityDate, bathrooms, bedrooms, city, id, name, picture, roomSize} = home;
    
    return (
